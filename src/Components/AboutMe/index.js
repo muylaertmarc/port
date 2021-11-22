@@ -2,7 +2,6 @@ import React from "react";
 import ProfilePic from "../../moi.jpg";
 import githubLogo from "../../skillLogos/githubLogo.png";
 import CVLogo from "../../Contact-Folder/cv.png";
-import Appgsap from "../../Appgsap";
 
 const AboutMe = () => {
   return (

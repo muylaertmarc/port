@@ -2,7 +2,6 @@ import React, {useEffect, useRef} from "react";
 import "./Appgsap.scss";
 import {TimelineLite ,TweenMax, Power3} from 'gsap/all';
 
-
 import imgGirl from "./moiweb1.webp";
 import imgBoy from "./moiweb1.webp";
 import arrow from './logo5.png'
@@ -65,14 +64,12 @@ function Appgsap() {
                 </div>
               </h1>
               <p>
-                Better treats serious cardiometabolic diseases to transform
-                lives and reduce healthcare utilization through the use of
-                digital therapeutics.
+                The first page is based with some effect with gsap/greenBox
               </p>
               <div className="btn-row">
-                <button className="explore-button">Wolf
+                <button className="explore-button">Black Wolf ..
                   <div className="arrow-icon">
-                  hello  <img src={arrow} alt="row"/>
+                  <img src={arrow} alt="row"/>
                   </div>
                 </button>
               </div>

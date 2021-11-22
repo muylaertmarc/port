@@ -1,11 +1,7 @@
 import "./App.css";
 import React, { useRef, useEffect } from 'react';
-import particlesConfig from "./particles.json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Particles from "react-particles-js";
-import { tsParticles } from "tsparticles"
 import Navbar from "./Components/Navbar";
-import FakeNav from "./Components/FakeNav";
 import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
@@ -15,12 +11,12 @@ import ContactForm from './Components/Contact';
 import Footer from './Components/Footer';
 import Background from './Components/Background';
 import Appgsap    from "./Appgsap";
+import "./Appgsap.css"
 
 function App() {
 
   return (
-    <div>
-     
+    <div>     
       <Background />
       <Appgsap />
       <Navbar />
@@ -37,24 +33,3 @@ function App() {
 
 export default App;
 
-/*<Particles
-className="particles-canvas"
-params={{
-  particles: {
-    number: {
-      value: 30,
-      density: {
-        enable: true,
-        value_area: 900
-      }
-    },
-    shape: {
-      type: "star",
-      stroke: {
-        width: 6,
-        color: "#156307"
-      }
-    }
-  }
-}}
-/>*/
