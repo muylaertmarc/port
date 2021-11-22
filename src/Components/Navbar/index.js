@@ -124,9 +124,7 @@ const Navbar = () => {
                 Contact Me
               </Link>
             </li>
-          </ul> 
-          <h1 >Hello</h1>
-         
+          </ul>
         </div> 
       </div>
     </nav>

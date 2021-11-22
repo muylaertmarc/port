@@ -2,6 +2,7 @@
 import React, { useRef, useEffect } from 'react';
 import Typed from 'react-typed';
 import { Link } from 'react-scroll';
+import Appgsap from '../../Appgsap';
 
 /*import particlesConfig from "../../particles.json";
   import Particles from "react-tsparticles";*/

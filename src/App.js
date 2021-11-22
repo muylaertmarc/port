@@ -7,18 +7,22 @@ import { tsParticles } from "tsparticles"
 import Navbar from "./Components/Navbar";
 import FakeNav from "./Components/FakeNav";
 import Header from "./Components/Header";
-import AboutMe from "./Components/AboutMe"
-import Skills from "./Components/Skills"
-import Timeline from './Components/Experience/Timeline'
-import Portfolio from './Components/Portfolio/Portfolio-Con'
-import ContactForm from './Components/Contact'
-import Footer from './Components/Footer'
-import Background from './Components/Background'
+import AboutMe from "./Components/AboutMe";
+import Skills from "./Components/Skills";
+import Timeline from './Components/Experience/Timeline';
+import Portfolio from './Components/Portfolio/Portfolio-Con';
+import ContactForm from './Components/Contact';
+import Footer from './Components/Footer';
+import Background from './Components/Background';
+import Appgsap    from "./Appgsap";
 
 function App() {
 
   return (
     <div>
+     
+      <Background />
+      <Appgsap />
       <Navbar />
       <Header />
       <AboutMe /> 
@@ -26,8 +30,7 @@ function App() {
       <Timeline />
       <Portfolio />
       <ContactForm />
-      <Footer />
-      
+      <Footer /> 
     </div>
   );
 }

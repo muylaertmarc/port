@@ -1,12 +1,13 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import Appgsap from "../Appgsap";
 
 const Background = () => {
   let options = {
     autoPlay: true,
     background: {
       color: {
-        value: "#0d47a1",
+        value: "#a6b7d7",
       },
       image: "",
       position: "50% 50%",
@@ -27,7 +28,7 @@ const Background = () => {
     },
     fullScreen: {
       enable: true,
-      /*zInndex: 1,*/
+      /*zIndex: 1,*/
       zIndex: 0,
     },
     detectRetina: true,

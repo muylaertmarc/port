@@ -5,6 +5,9 @@ import PhonePng from "../../Contact-Folder/phone.png";
 import SocialCards from "./SocialCards";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Particle from "react-particles-js";
+import particlesConfig from "../../particles.json";
+
 
 AOS.init();
 const ContactForm = () => {
@@ -30,8 +33,11 @@ const ContactForm = () => {
   };
 
   return (
+
+
     <div className="contact-wraper" id="Contact">
       <div className="container">
+      <Particle params={particlesConfig} className="App-particles__container" />
         <form className="container" onSubmit={sendEmail} data-aos="fade-up">
           <input type="hidden" name="contact_number" />
           <div>
