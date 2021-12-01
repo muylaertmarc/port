@@ -10,13 +10,13 @@ import Portfolio from './Components/Portfolio/Portfolio-Con';
 import ContactForm from './Components/Contact';
 import Footer from './Components/Footer';
 import Background from './Components/Background';
-import Appgsap    from "./Appgsap";
-import "./Appgsap.css"
+import FakeNav from "./Components/FakeNav";
+import Appgsap   from "./Appgsap";
 
 function App() {
 
   return (
-    <div>     
+    <div> 
       <Background />
       <Appgsap />
       <Navbar />

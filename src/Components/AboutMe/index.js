@@ -3,6 +3,7 @@ import ProfilePic from "../../moi.jpg";
 import githubLogo from "../../skillLogos/githubLogo.png";
 import CVLogo from "../../Contact-Folder/cv.png";
 
+
 const AboutMe = () => {
   return (
    

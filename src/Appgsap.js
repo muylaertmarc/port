@@ -1,10 +1,10 @@
 import React, {useEffect, useRef} from "react";
-import "./Appgsap.scss";
+import "./Appgsap.css";
 import {TimelineLite ,TweenMax, Power3} from 'gsap/all';
 
-import imgGirl from "./moiweb1.webp";
-import imgBoy from "./moiweb1.webp";
-import arrow from './logo5.png'
+import imgGirl from "./seigneur1.jpg";
+import imgBoy from "./seigneur.png";
+import arrow from './logoseigneur2.jpg';
 
 function Appgsap() {
   let app = useRef(null)
@@ -44,8 +44,6 @@ function Appgsap() {
 
   }, [tl])
 
-
-
   return (
     <div className="hero" ref={el => app = el}>
       <div className="container">
@@ -54,20 +52,18 @@ function Appgsap() {
             <div className="hero-content-inner" ref={el => content = el}>
               <h1>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">Relieving the burden</div>
+                  <div className="hero-content-line-inner"> </div>
                 </div>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">of disease caused</div>  
+                  <div className="hero-content-line-inner">All we have to decide is what to</div>  
                 </div>
                 <div className="hero-content-line">
-                  <div className="hero-content-line-inner">by behaviors.</div>
+                  <div className="hero-content-line-inner">do with the time that is given us</div>
                 </div>
               </h1>
-              <p>
-                The first page is based with some effect with gsap/greenBox
-              </p>
+              <p> </p>
               <div className="btn-row">
-                <button className="explore-button">Black Wolf ..
+                <button className="explore-button"> you shall not pass..
                   <div className="arrow-icon">
                   <img src={arrow} alt="row"/>
                   </div>

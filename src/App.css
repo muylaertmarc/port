@@ -45,7 +45,7 @@ nav {
 
 
 .myLogo {
-  width: 10.25rem
+  width: 7.25rem
 }
 
 
@@ -176,7 +176,7 @@ nav ul li {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  z-index: 0;
+  z-index: 3;
 }
 
 @media (max-width: 768px) {
@@ -194,17 +194,17 @@ nav ul li {
   padding-top: 4rem;
   padding-bottom: 4rem;
   max-width: 100% !important;
-  /* height: 100% !important; */
-  /* margin: 0px !important; */
-  /* padding: 0px !important; */
+  height: 100% !important; 
+   margin: 100px !important; 
+  padding: 100px !important; 
   overflow-x: hidden; 
 }
 
 .about-me a img {
-  width: 4rem;
+  width: 5rem;
   transition: all 0.3s ease;
   position: relative;
-  height: 5.12rem !important;
+  height: 6.12rem !important;
 }
 
 .about-me a img:hover {

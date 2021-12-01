@@ -1,18 +1,42 @@
 import React from "react";
-import myLogo from "../../frodon.jpg";
+import myLogo from "../../logoseigneur2.jpg";
 // REACT FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 // React Scroll
 import { Link } from "react-scroll";
-
+import Particles from "react-particles-js";
 import Background from "../Background";
 
 const Navbar = () => {
   
   return (
+    
     <nav className="navbar navbar-style navbar-expand-lg navbar-light bg-dark">
+
+      <Particles
+      className="particles-canvas"
+      params={{
+        particles: {
+          number: {
+            value: 30,
+            density: {
+              enable: true,
+              value_area: 900
+            }
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 6,
+              color: "#156307"
+            }
+          }
+        }
+      }}
+      />    
+      
       <div className="container">
       
         <a className="navbar-brand" href="#">
